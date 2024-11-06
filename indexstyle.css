@@ -336,3 +336,53 @@
 .tipodemaquina-baoyu-bg {
     background-image: linear-gradient(to bottom, rgb(92, 1, 1), rgb(255, 0, 0));
 }
+
+/* Responsividad */
+
+
+
+
+@media (max-width: 768px) /*250%*/
+{
+    .header-index img { max-width: 300px; }
+    .logo-container img{ max-width: 150px; max-height: 150px; }
+    .main-index h1 {font-size: 0.6rem;}
+    .catalogos-index p, .footer-index p {font-size: 0.6rem;}    
+    .fabricante-index { max-width: 200px; max-height: 200px; }
+    .article-catalogo { max-width: 160px; max-height: 160px; }
+    .article-catalogo p { font-size: 0.5rem;}
+    .tipodemaquina h1 { font-size: 0.7rem; }
+    .header-catalogo a, .footer-catalogo a { font-size: 0.8rem; }
+    .footer-index a {font-size: 0.5rem;}
+    
+}
+
+@media (max-width: 600px) /*300%*/
+{
+    .header-index img { max-width: 300px; }
+    .logo-container img{ max-width: 120px; max-height: 120px; }
+    .main-index h1 {font-size: 0.6rem;}
+    .catalogos-index p, .footer-index p {font-size: 0.6rem;}    
+    .fabricante-index { max-width: 200px; max-height: 200px; }
+    .article-catalogo { max-width: 160px; max-height: 160px; }
+    .article-catalogo p { font-size: 0.4rem;}
+    .tipodemaquina h1 { font-size: 0.5rem; }
+    .header-catalogo a, .footer-catalogo a { font-size: 0.8rem; }
+    .footer-index a {font-size: 0.5rem;}
+    
+}
+
+@media (max-width: 400px) /*500%*/
+{
+    .header-index img { max-width: 200px; }
+    .logo-container img{ max-width: 120px; max-height: 120px; }
+    .main-index h1 {font-size: 0.6rem;}
+    .catalogos-index p, .footer-index p {font-size: 0.6rem;}    
+    .fabricante-index { max-width: 130px; max-height: 130px; }
+    .article-catalogo { max-width: 130px; max-height: 130px; }
+    .article-catalogo p { font-size: 0.4rem;}
+    .tipodemaquina h1 { font-size: 0.5rem; }
+    .header-catalogo a, .footer-catalogo a { font-size: 0.8rem; }
+    .footer-index a {font-size: 0.5rem;}
+}
+
